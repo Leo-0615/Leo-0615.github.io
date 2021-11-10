@@ -6,20 +6,27 @@
 
       .sansserif {
        font-family: Arial, Helvetica, sans-serif;}
-      
-      p.a{{border-style: dotted green;}
-      p.b {border-style: dashed red;}
+
+    * {font-size: 1.2em; padding: 5px;}
+      p.round1 {
+          border: 4px solid green;
+          border-radius: 12px;
+          }
+      p.round2 {
+          border: 4px solid red;
+          border-radius: 12px;
+          }
     </style>
   </head>
   
   <body>
-    <p class="serif a">First paragraph.</p> 
-    <p class="serif a">Second paragraph.</p> 
-    <p class="serif a">Third paragraph.</p> 
-    <p class="serif a">Fourth paragraph.</p> 
-    <p class="sansserif b">Fifth paragraph.</p>
-    <p class="sansserif b">Sixth paragraph.</p>
-    <p class="sansserif b">Seventh paragraph.</p>
-    <p class="sansserif b">Eighth paragraph.</p>
+    <p span class="serif round1">First paragraph.<br>
+    Second paragraph.<br> 
+    Third paragraph.<br>
+    Fourth paragraph.</p><br>
+    <p span class="sansserif round2">Fifth paragraph.<br>
+    Sixth paragraph.<br>
+    Seventh paragraph.<br>
+    Eighth paragraph.</p><br>
   </body>
 </html>
