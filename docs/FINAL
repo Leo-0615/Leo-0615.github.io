@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+
+
+div.left_side {
+height: 100%;
+overflow: auto;
+width: 15%;
+float: left;
+background: salmon;
+}
+
+div.main {
+	height: 93vh;
+	overflow: auto;
+	float: left;
+	background: gray;
+	width: 80%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+}
+
+div.item {
+	float: right;
+	width: 800px;
+	margin: 10%;
+	border: 20px solid gray;
+	background:  rgb(150,50,100);
+	border-radius: 20px;
+	text-align: center;
+	height: 200px;
+}
+div.item:hover 
+{
+	box-shadow: 0px 0px 5px indianred;
+}
+
+body {
+margin: 0px;
+}
+#footer {
+	position: fixed;
+	background: palevioletred;
+    bottom: 0px;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	flex: 0 0 60px;
+}
+
+#footer p {
+	color: orange;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="left_side">
+	<p id ="top">ＭＥＮＵ<br>
+		--------------------------------
+		
+		<p><a href="#MOVEMENT";class="mid">MOVEMENT</a></p>
+		<br><br><br><br><br><br>
+		<p>&nbsp;<a href="#HEALING";class="mid">HEALING</p>
+		<br><br><br><br><br><br>
+		<p><a href="#HEROMAP";class="mid">HERO & MAP</a></p>
+		<br><br><br><br><br><br>
+		<p><a href="#GunsSKINS";class="mid">Guns & SKINS</a></p>
+		<br><br><br><br><br><br>
+	</p>
+</div>
+
+  
+
+	<div class="item">
+		<p id= "MOVEMENT";>MOVEMENT<br><br><br><br>Use <b>WASD</b> to control your character to move.<br>Use <b>CTRL</b> to slide,which is a useful tip to <u>move faster</u>.<br>
+		Use <b>SHIFT</b> to run. Although you can move faster, <u>enemy can hear</u> your sound clearly.
+			<br><br><a href="#top";class="mid">TOP</a>
+		</p>	
+	</div>
+	<div class="item">
+		<p id = "HEALING">HEALING<br><br><br><br>Every character in APEX have <b>health point and shield</b>. If you get hurt, you need to heal.<br>Use <b>battery</b> to recovery your shield.<br>Use <b>med-kit</b> to recovery your health point.
+
+
+<br><br><a href="#top";class="mid">TOP</a>
+</p>	
+	</div>
+	<div class="item">
+		<p id = "HEROMAP">HERO & MAP<br><br><br>APEX has <b>19 heros</b>, and they have their own <u>unique skills.</u><br>APEX has four maps, every map has <b>different size and landmark</b>; therefore, you should take <u>different strategy at different map</u>. It will significantly help you easier to win.<br>
+<br><br><a href="#top";class="mid">TOP</a>
+		</p>	
+	</div>
+	<div class="item">
+		<p id = "GunsSKINS">Guns & SKINS<br><br><br>Every heros and guns have <b>special skins</b>. The skins don't effect gun's damage and accuracy, and don't effect hero's speed. But you will <u>be happy when you have that cool stuff</u>.<br>Like other games, APEX have <u>Sniper, Pisto, Rifle and other guns</u>. Try every gun and <b>find the gun that fits you</b>.<br>
+<br><br><a href="#top";class="mid">TOP</a>
+	
+		</p>	
+	</div>
+    
+	<div class="bg">
+        <img 
+		src="./APEX BG.jpg"
+			width="300px";
+		>
+    </div>
+
+</div>
+<div id="footer">
+  <p> APEX LEGENDS</p>
+</div>
+</body>
+</html>
